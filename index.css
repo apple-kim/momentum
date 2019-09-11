@@ -1,0 +1,19 @@
+
+body{
+  background-color: #FFE5CB
+
+}
+
+h1{
+    color:#719E71
+}
+h4{
+    color:#FF9D6E
+}
+
+.form,.greetings{
+    display: none;
+}
+.showing{
+    display: block;
+}
