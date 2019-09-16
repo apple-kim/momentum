@@ -5,15 +5,54 @@ body{
 }
 
 h1{
-    color:#719E71
+    margin-bottom: 20px;
+    color:white
 }
 h4{
-    color:#FF9D6E
-}
+    color:white
 
+}
+.js-clock{
+  font-size: 30px;
+  margin-bottom: 20px;
+}
 .form,.greetings{
     display: none;
 }
 .showing{
     display: block;
+    font-size: 25px;
+    margin-top: 20px;
+    margin-left:20px;
+}
+.js-weather{
+
+  margin-left: 50px;
+  color:white;
+}
+@keyframes fadeIn {
+  from{
+    opacity: 0;
+  }
+   to{
+     opacity: 1;
+   }
+}
+.bgImage{
+  position: absolute;
+  top:0;
+  left:0;
+  width:100%;
+  height:100%;
+  z-index: -1;
+  animation: faedIn 0.5s linear;
+}
+.main{
+  margin-left:600px;
+
+  margin-top: 250px;
+
+}
+.js-toDoForm{
+  margin-left:40px;
 }
